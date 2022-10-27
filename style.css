@@ -1,0 +1,92 @@
+body, h1, h2, h3, p{
+  margin: 0;
+  padding: 0;
+}
+#header{
+  background-color: #34424a;
+  border-bottom: 5px solid coral;
+}
+
+#header h1{
+  color: #fff;
+  font-family: sans-serif;
+  padding: 15px 25px;
+  display: inline-block;
+}
+#header .logo{
+    color: coral;
+}
+.navbor{
+  float: right;
+  
+  
+}
+.navbor  li{
+  display: inline;
+}
+.navbor li a{
+  text-decoration: none;
+  color: #fff;
+  font-family: sans-serif;
+  padding: 15px;
+  display: inline-block;
+}
+.navbor li a:hover{
+  color: coral;
+}
+
+.contener{
+  width: 70%;
+  margin: auto;
+}
+
+
+#banner{
+  height: 60vh;
+  background-image: url(./sufyan-ByPtzfbqfyM-unsplash.jpg);
+  background-size: cover;
+  background-position: center ;
+  text-align: center;
+  color: #fff;
+  font-family: sans-serif;
+}
+#banner h1{
+  font-size: 56px;
+  margin-bottom: 20px;
+  padding-top: 100px;
+}
+#newsletter{
+  background-color: #34424a;
+  color: rgb(98, 17, 17);
+  font-family: sans-serif;
+  padding: 20px 0;
+  display: inline-block;
+  width: 100%;
+}
+#newsletter .left{
+  float: left;
+  
+}
+#newsletter .right{
+ float: right;
+}
+#newsletter input{
+  padding: 5px;
+}
+.button{
+  padding: 5px 15px;
+  background-color: coral;
+   color: #fff;
+}
+#coursrs{
+  padding: 30px;
+}
+.box{
+  width: 33.3%;
+  float: left;
+  text-align: center;
+}
+.box img{
+  max-width: 100%;
+  width: 120px;
+}
